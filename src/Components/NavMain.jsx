@@ -1,13 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 
 function NavMain() {
   return (
     <Navbar expand="lg" style={{ backgroundColor: '#007bff' }} variant="dark">
       <Container>
-        <Navbar.Brand href="/" className="text-white">Loan Calculator</Navbar.Brand>
+       <Link> <Navbar.Brand href="/" className="text-white">Loan Calculator</Navbar.Brand></Link>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
         
